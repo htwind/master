@@ -7,7 +7,7 @@ async function launch() {
 }
 launch()
 function linkedip(){ 
-$httpClient.post('https://link-ip.nextdns.io/f45755/7fbc626456b2d68e', function(error, response, data){
+$httpClient.post('https://link-ip.nextdns.io/917732/0d07e3ee026a20ba', function(error, response, data){
   if (error) {
 console.log('❌');
   } else {

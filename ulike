@@ -1,0 +1,17 @@
+var obj = JSON.parse($response.body);
+
+obj= {
+  "data": {
+    "flag": true,
+    "start_time": 1596095422,
+    "end_time": 1596700237,
+    "is_first_subscribe": true,
+    "is_cancel_subscribe": true,
+    "subscribe_type": "auto",
+  },
+  "systime": "",
+  "errmsg": "Success",
+  "ret": "0"
+};
+
+$done({body: JSON.stringify(obj)});

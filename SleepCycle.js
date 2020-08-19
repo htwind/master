@@ -26,6 +26,6 @@ obj= {
       "philips-hue"
     ]
   }
-}
+};
 
  $done({body: JSON.stringify(obj)});

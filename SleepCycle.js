@@ -1,7 +1,6 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-  {
   "status": "ok",
   "receipt": {
     "estimated_renewal": 1598449621,

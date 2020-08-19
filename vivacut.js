@@ -3,17 +3,11 @@ var obj = JSON.parse($response.body);
 obj= {
   "code": 200,
   "data": {
-    "hasFreedTrialProds": [
-      "com.vivacut.videoeditor.yearlypro"
-    ],
-    "hasPurchasedProds": [
-      "com.vivacut.videoeditor.yearlypro"
-    ],
     "list": [
       {
         "autoRenewProductId": "com.vivacut.videoeditor.yearlypro",
         "autoRenewStatus": true,
-        "endTime": 1597072071000,
+        "endTime": 9999999999999,
         "isTrialPeriod": true,
         "orderId": "700000535186055",
         "orderStatus": 1,

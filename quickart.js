@@ -139,6 +139,6 @@ let obj= '<?xml version="1.0" encoding="UTF-8"?>
 		</dict>
 	</array>
 </dict>
-</plist>
-';
+</plist>';
+
 $done({body: obj});

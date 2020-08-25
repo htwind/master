@@ -1,3 +1,9 @@
+var obj = JSON.parse($response.body);
+var bundle_id = obj.receipt["bundle_id"];
+
+if(bundle_id == "fitnessworkout.app")
+{
+obj =
 {
   "status": 0,
   "environment": "Production",
@@ -31,9 +37,9 @@
         "original_purchase_date": "2020-08-11 08:04:09 Etc/GMT",
         "original_purchase_date_ms": "1597133049000",
         "original_purchase_date_pst": "2020-08-11 01:04:09 America/Los_Angeles",
-        "expires_date": "2020-08-14 08:04:09 Etc/GMT",
+        "expires_date": "2099-08-14 08:04:09 Etc/GMT",
         "expires_date_ms": "1597392249000",
-        "expires_date_pst": "2020-08-14 01:04:09 America/Los_Angeles",
+        "expires_date_pst": "2099-08-14 01:04:09 America/Los_Angeles",
         "web_order_line_item_id": "700000208434460",
         "is_trial_period": "true",
         "is_in_intro_offer_period": "false"
@@ -52,9 +58,9 @@
       "original_purchase_date": "2020-08-11 08:04:09 Etc/GMT",
       "original_purchase_date_ms": "1597133049000",
       "original_purchase_date_pst": "2020-08-11 01:04:09 America/Los_Angeles",
-      "expires_date": "2020-08-14 08:04:09 Etc/GMT",
+      "expires_date": "2099-08-14 08:04:09 Etc/GMT",
       "expires_date_ms": "1597392249000",
-      "expires_date_pst": "2020-08-14 01:04:09 America/Los_Angeles",
+      "expires_date_pst": "2099-08-14 01:04:09 America/Los_Angeles",
       "web_order_line_item_id": "700000208434460",
       "is_trial_period": "true",
       "is_in_intro_offer_period": "false",
@@ -67,9 +73,10 @@
       "expiration_intent": "1",
       "auto_renew_product_id": "fitnessworkout.app.subscription.1weekb",
       "original_transaction_id": "700000537029265",
-      "is_in_billing_retry_period": "0",
       "product_id": "fitnessworkout.app.subscription.1weekb",
-      "auto_renew_status": "0"
+      "auto_renew_status": "1"
     }
   ]
-}
+};
+
+$done({body: JSON.stringify(obj)});

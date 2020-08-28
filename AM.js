@@ -16,7 +16,6 @@ obj= {
           "FutureMemberFeatures",
           "AdvancedEasing"
         ],
-        "autoRenewing" : true,
         "productId" : "com.alightcreative.motion.sub.yearly",
         "valid" : true,
         "type" : "subscription",

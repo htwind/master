@@ -18,17 +18,12 @@ obj= {
         ],
         "autoRenewing" : true,
         "productId" : "com.alightcreative.motion.sub.yearly",
-        "details" : null,
         "valid" : true,
-        "label" : null,
         "type" : "subscription",
         "expires" : 9999999999999,
         "store" : "apple_app_store"
       }
     ],
-    "warnings" : [
-
-    ]
   }
 };
 

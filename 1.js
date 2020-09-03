@@ -41,7 +41,7 @@ obj =
         "expires_date_ms": "1597392249000",
         "expires_date_pst": "2099-08-14 01:04:09 America/Los_Angeles",
         "web_order_line_item_id": "700000208434460",
-        "is_trial_period": "true",
+        "is_trial_period": "false",
         "is_in_intro_offer_period": "false"
       }
     ]
@@ -62,7 +62,7 @@ obj =
       "expires_date_ms": "1597392249000",
       "expires_date_pst": "2099-08-14 01:04:09 America/Los_Angeles",
       "web_order_line_item_id": "700000208434460",
-      "is_trial_period": "true",
+      "is_trial_period": "false",
       "is_in_intro_offer_period": "false",
       "subscription_group_identifier": "20549436"
     }

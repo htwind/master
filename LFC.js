@@ -12,7 +12,7 @@ obj= {
   },
   "list": [],
   "access_token": "bb6896f7921b99ad9662273744a729a2fa7a7d80",
-  "payment_status": "1",
+  "payment_status": "subscription",
   "code": "200"
 };
 

@@ -2,12 +2,12 @@ var obj = JSON.parse($response.body);
 
 obj= {
   "userid": 48577618,
-  "firstname": "Hoàng",
+  "firstname": "",
   "lastname": "",
   "gender": "male",
   "country": "VN",
-  "email": "ltmoffline@gmail.com",
-  "birthdate": "1994-09-01",
+  "email": "",
+  "birthdate": "",
   "registerdate": "2020-09-01",
   "startdate": "2020-09-01",
   "profile_image": null,

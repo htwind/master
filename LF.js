@@ -11,12 +11,12 @@ obj= {
   "registerdate": "2020-09-01",
   "startdate": "2020-09-01",
   "profile_image": null,
-  "height": 164,
-  "water": 2000,
-  "loseweight": 0,
-  "lossperweek": 0.5,
-  "startweight": 59,
-  "targetweight": 63,
+  "height": ,
+  "water": ,
+  "loseweight": ,
+  "lossperweek": ,
+  "startweight": ,
+  "targetweight": ,
   "usesmetric": true,
   "useskj": false,
   "usesstones": false,
@@ -34,7 +34,7 @@ obj= {
   "measurement_type": "eu",
   "user_set_calories": 0,
   "haspassword": true,
-  "weight": 59,
+  "weight": ,
   "premium": true
 };
 

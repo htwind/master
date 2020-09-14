@@ -20,7 +20,7 @@ obj= {
   "usesmetric": true,
   "useskj": false,
   "usesstones": false,
-  "activity": 1.375,
+  "activity": ,
   "custom1name": "",
   "custom1sufix": "",
   "custom2name": "",

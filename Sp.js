@@ -1,7 +1,5 @@
 var obj = JSON.parse($response.body);
 obj= {
-
-{
   "entitlements": [
     {
       "entitlement_id": "premium",

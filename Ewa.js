@@ -213,7 +213,7 @@ obj= {
         "platform": "iOS",
         "price": 5990,
         "discount": 70,
-        "trialPeriod": null,
+        "trialPeriod": true,
         "description": "iOS unlimited 5990",
         "packageName": "com.ewa.ewaapp",
         "name": "com.ewa.unlimited",
@@ -221,7 +221,7 @@ obj= {
       }
     ],
     "user": {
-      "_id": "32bf2516-cebf-4b0e-8bab-a9bbfb67e8ef",
+      "_id": "1864ca6d-3800-4f33-a3b8-510d95319cbe",
       "wordStat": {
         "known": 0,
         "learned": 0,
